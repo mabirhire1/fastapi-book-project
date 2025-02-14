@@ -2,7 +2,7 @@ name: Deploy to EC2_Instance
 
 on:
   push:
-    branches: [ stage2task ]
+    branches: [ main ]
 
 jobs:
   deploy:
