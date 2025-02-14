@@ -2,7 +2,7 @@ name: Pytest
 
 on:
   pull_request:
-    branches: [ stage2task ]
+    branches: [ main ]
 
 jobs:
   test:

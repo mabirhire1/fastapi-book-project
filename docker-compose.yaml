@@ -1,4 +1,9 @@
-# docker-compose.yaml
+name: docker-compose.yaml
+
+on:
+  pull_request:
+    branches: [ main ]
+
 version: '3.8'
 
 services:
